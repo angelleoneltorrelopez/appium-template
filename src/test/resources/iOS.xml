@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "mobile">
+    <listeners>
+        <listener class-name="auxiliary.reports.TestListener"/>
+    </listeners>
+
+    <parameter name="mobil" value="ios" />
+    <test name = "modulo1">
+        <packages>
+            <package name="test.iOS.myDemoApp" />
+        </packages>
+    </test>
+</suite>
